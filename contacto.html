@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="css/estilo_formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="menu">
+                <p>DAVID SANTILLAN</p>
+                <div class="menu-icon">
+                    <img src="img/menu.png" alt="">
+                </div>
+                <nav>    
+                    <ul>
+
+                        <a href="index.html"><li>Inicio</li></a>
+                    </ul>
+                </nav>
+            </div>           
+            </div>
+         <div class="pantalla-dividida">
+             <div class="izquierda">
+                 <h1>CONTACTO</h1>
+                <form action="https://formspree.io/f/xvodyzov" method="POST" >
+                    <label><input type="text" name="nombre"  class="name" placeholder="Tu nombre" required></label>
+                    <label><input type="email" name="correo" class="email" placeholder="Tu correo" required></label>
+                    <label><input type="tel" name="telefono" class="telefono" placeholder="Tu teléfono" size="20" max="10" min="10" required></label>
+                    <textarea rows="10" cols="70" name="mensaje" class="message" placeholder="Mensaje"  required></textarea><br>
+                    <input type="submit" value="enviar" class="enviar"> 
+                </form>
+                <div class="redes">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100063107080459"><img src="IMG/facebook.png" width="30px"></a>
+                    <a target="_blank" href="https://twitter.com/"><img src="IMG/gorjeo.png" width="30px"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img src="IMG/youtube.png" width="30px"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img src="IMG/instagram.png" width="30px"></a>	
+                </div>
+                <p>Contacto Tel. 5555555 | Correo: info@mail.com </p>
+             </div>
+             
+             <div class="derecha">
+                
+
+
+             </div>
+         </div>  
+         <div id="whattsapp">
+            <a href="https://wa.me/525532926062" target="_blank"><img src="img/whatsapp.png"  alt=""></a>   
+        </div>
+    </header>
+
+</body>
+</html>
