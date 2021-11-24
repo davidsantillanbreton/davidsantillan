@@ -77,6 +77,24 @@ h1{
 .izquierda a:hover{
   transform: scale(1.4);
 }
+/*PARALLAX*/
+#parallax{
+  background-image: url(../img/photo-1633249658235-d591f2f2acba.jpg);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#parallax h2{
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
 /* SOBRE MI */
 h3{
 text-align: center;
